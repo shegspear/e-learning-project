@@ -1,6 +1,6 @@
 # e-learning-project
 
-Click [HERE](https://www.figma.com/file/ug12Phme5DSRlTSlIMaqAt/Deluxe-Hotel-Landing-Page?node-id=0%3A1) to check out the design!
+Click [HERE](https://www.figma.com/file/hIdTALTgATjxyfZWVFn7Qk/SideHustle-Group-1-major-task-5?node-id=0%3A1) to check out the design!
 
 ## INSTRUCTIONS
 
