@@ -30,7 +30,7 @@ Step 6. Push your changes using:
 
 >` git push origin `
 
-### Note: If it's a bug fix, use `"bug:username"` for branch and commit message
+### Note: If it's a bug fix, use `"bug:message"` for branch and commit message
 
 ## STEPS TO CREATING A PULL REQUEST
 
