@@ -36,7 +36,7 @@ Step 6. Push your changes using:
 
 Step 1: After pushing your commit to github, navigate to your repository page on github where you pushed your commit.
 
-Step 2: At the top part of the page you should see a dropdown section titled `‘Branch:master‘`; select in the dropdown, the branch that contains your commits. The default is usually the master branch.
+Step 2: At the top part of the page you should see a dropdown section titled `‘Branch:main`; select in the dropdown, the branch that contains your commits. The default is usually the main branch.
 
 Step 3: To the right of the branch menu, you would see a button `‘New Pull Request’`; click on the button. This should take you to the original page i.e the page of the repository that you forked from.
 
