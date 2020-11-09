@@ -1,0 +1,261 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  position: relative;
+  margin: 0;
+  font-family: "Red Hat Display", sans-serif;
+  font-size: 16px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.container-fluid {
+  padding: 0;
+}
+
+.top-container {
+  background-image: linear-gradient(
+      90deg,
+      rgba(34, 34, 34, 0.7) 0%,
+      rgba(34, 34, 34, 0.7) 50%,
+      rgba(34, 34, 34, 0.7) 100%
+    ),
+    url("../images/homepage/Rectangle\ 6.png");
+  min-height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.sticky {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+#logo {
+  width: 120px;
+}
+
+.navbar {
+  padding: 0.5rem 1rem;
+  background-color: #1a3263;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #fff;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #f8be2a;
+}
+
+.navbar-light .navbar-nav .nav-link.active {
+  color: #f8be2a;
+}
+
+.top-link {
+  margin: 0 20px;
+  color: #fff;
+}
+
+.nav-full {
+  height: 100vh;
+}
+
+.main-heading {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  padding-top: 78px;
+  min-height: calc(100vh - 78px);
+}
+
+.main-heading h1 {
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+/* Bootstrap 4 text input with search icon */
+
+.main-heading .form-group {
+  width: 70%;
+}
+
+.navbar .form-control {
+  padding: 1rem 0.75rem;
+}
+
+.navbar .has-search .form-control-feedback {
+  line-height: 2.5rem;
+}
+
+.form-control {
+  padding: 1.375rem 0.75rem;
+}
+
+.has-search .form-control {
+  padding-left: 2.375rem;
+}
+
+.has-search .form-control-feedback {
+  position: absolute;
+  z-index: 2;
+  display: block;
+  width: 2.375rem;
+  height: 2.375rem;
+  line-height: 2.85rem;
+  text-align: center;
+  pointer-events: none;
+  color: #aaa;
+}
+
+.story p {
+  font-size: 1.1rem;
+  line-height: 200%;
+}
+
+img {
+  width: 100%;
+}
+
+.footer {
+  position: relative;
+  background-color: #1a3263;
+  color: #fff;
+  padding: 40px 0;
+}
+
+.footer i {
+  color: #fff;
+  font-size: 1.2rem;
+  padding: 0 1rem 2rem 2rem;
+}
+
+.footer .form-group,
+.footer .btn {
+  width: 90%;
+}
+
+.footer .btn {
+  background: #fab95b;
+  border-radius: 5px;
+  border-color: #f8be2a;
+}
+
+.btn-primary:hover {
+  background: transparent;
+  border-color: #f8be2a;
+}
+
+.info img {
+  width: 20px;
+  margin-right: 20px;
+}
+
+.footer-top {
+  margin-bottom: 20px;
+}
+
+.copyright {
+  text-align: center;
+  font-size: 12px;
+  line-height: 16px;
+  color: rgba(229, 229, 229, 0.5);
+}
+
+.bottom-details {
+  min-height: 230px;
+  padding-left: 1rem;
+}
+
+.middle-div {
+  border-left: 1px solid rgba(245, 245, 245, 0.2);
+  border-right: 1px solid rgba(245, 245, 245, 0.2);
+}
+
+@media only screen and (max-width: 768px) {
+  .navbar-light .navbar-nav .nav-link,
+  .top-link {
+    display: flex;
+    justify-content: center;
+  }
+
+  #logo-link {
+    z-index: 1;
+  }
+
+  #logo {
+    width: 100px;
+  }
+
+  .navbar-light .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28248, 190, 42 %29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
+  }
+
+  .navbar-light .navbar-toggler-icon.nav-toggler-alt {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 0, 0, 0.5%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
+  }
+
+  .navbar-light .navbar-toggler {
+    outline: none;
+  }
+
+  .show-nav {
+    top: 0;
+    padding-top: 78px;
+    background-color: #f8be2a;
+    width: 100%;
+    position: absolute;
+    left: 0;
+  }
+
+  .story p {
+    font-size: 1rem;
+    line-height: 150%;
+  }
+
+  .story,
+  .team {
+    padding-top: 30px;
+  }
+
+  .story {
+    min-height: 400px;
+  }
+
+  .navbar-light .navbar-toggler {
+    color: rgba(0, 0, 0, 1);
+    border: none;
+    z-index: 1;
+  }
+
+  .navbar-light .navbar-nav .nav-link {
+    padding: 20px 0;
+  }
+
+  .navbar-light .navbar-nav .nav-link.active {
+    color: #fff;
+  }
+
+  .footer .form-group,
+  .footer .btn {
+    width: 100%;
+  }
+
+  .top-search {
+    margin: 0;
+  }
+}
+
+@media only screen and (max-width: 640px) {
+  .footer {
+    padding-top: 30px;
+  }
+}
+
+@media only screen and (max-width: 300px) {
+}
