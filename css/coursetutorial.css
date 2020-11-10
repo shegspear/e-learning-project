@@ -1,0 +1,17 @@
+.tutorials {
+  padding-top: 54px;
+}
+
+.sidetab {
+  background: rgba(196, 196, 196, 0.2);
+}
+
+.nav-pills .nav-link {
+  color: #263238;
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+  background-color: #f8be2a;
+  color: #fff;
+}
