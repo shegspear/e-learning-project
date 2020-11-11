@@ -3,7 +3,7 @@
 
 <head>
   <link rel="icon" sizes="57x57" href="./images/icon/logoicon.png" />
-  <title>Easylearn | Home</title>
+  <title>Easylearn | Science Exercise </title>
   <link
     href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,400;0,500;0,700;0,900;1,400;1,500;1,900&display=swap"
     rel="stylesheet" />
@@ -12,6 +12,8 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <link rel="stylesheet" href="./css/index.css" />
+  <link rel="stylesheet" href="./css/science_subject.css" />
+  <link rel="stylesheet" href="./css/science_execise.css" />
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
   <meta content="text/html;charset=utf-8" http-equiv="Content-Type" />
   <meta content="utf-8" http-equiv="encoding" />
@@ -20,95 +22,92 @@
 <body>
   <div class="container-fluid main-container">
     <!-- navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light fixed-top header" id="myHeader">
-      <div class="container">
-        <a class="navbar-brand" href="./index.html" id="logo-link"><img src="images/logo.png" id="logo" /></a>
+      <!-- navbar -->
+      <nav class="navbar navbar-expand-lg navbar-light fixed-top header" id="myHeader">
+        <div class="container">
+            <a class="navbar-brand" href="./index.html" id="logo-link"><img src="images/logo.png" id="logo" /></a>
 
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
-          aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation" id="nav-toggler">
-          <span class="navbar-toggler-icon" id="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarText">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
+                aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation" id="nav-toggler">
+                <span class="navbar-toggler-icon" id="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarText">
 
-          <!--search box(uncomment the div below for search box on the navbar) -->
+                <!--search box(uncomment the div below for search box on the navbar) -->
 
-          <!-- <div class="nav-link top-link top-search">
-            <div class="form-group has-search mb-0">
-              <span class="fa fa-search form-control-feedback"></span>
-              <input type="text" class="form-control" placeholder="Search" />
+                <div class="nav-link top-link top-search">
+                    <div class="form-group has-search mb-0">
+                        <span class="fa fa-search form-control-feedback"></span>
+                        <input type="text" class="form-control" placeholder="What do you want to learn?" />
+                    </div>
+                </div>
+
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <!-- add active class to the tag below if the link is active -->
+                        <a class="nav-link top-link" href="./tutorialPage.html">TUTORIALS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link top-link" href="">EXERCISES</a>
+                    </li>
+                </ul>
             </div>
-          </div> -->
-
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-              <!-- add active class to the tag below if the link is active -->
-              <a class="nav-link top-link" href="./tutorialPage.html">TUTORIALS</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link top-link" href="science_subject.html">EXERCISES</a>
-            </li>
-          </ul>
         </div>
-      </div>
     </nav>
 <!-- navbar ends here -->
 
+    <!--Exercise section-->
+    <div class="container execise-section">
+        <div class="row py-5">
+            <div class="col-md-2">
+                <div class="left-side">
+                    <div class="subject-title">
+                        Science
+                    </div>   
+                        <p class="mt-3 mb-1">Introduction</p>
+                    <div class="execise-list mt-1 exe">
+                        <button class="mt-1">
+                            <li class="mr-4">Exercise 1</li>
+                        </button>
+                        <li class="mt-3">Exercise 2</li>
+                        <li class="mt-3">Exercise 3</li>
+                        <li class="mt-3">Exercise 4</li>
+                        <li class="mt-3">Exercise 5</li>
+                    </div>            
+                </div>
+            </div>
+            <div class="col-md-1"></div>
+            <div class="col-md-8 right-side">
+                <div class="subject-title-header">
+                    <div class="subject-title">
+                        <div class="mb-2">
+                             Exercise 1
+                        </div>
+                        <div class="line"></div>
+                    </div>
+                    <div class="score-section">
+                        <p>Score:</p>
+                        <button>
+                            0 / 10
+                        </button>
+                    </div>
+                </div>
+                <div class="control-buttons py-5 mt-4 mb-4">
+                    <button>< Home</button>
+                    <a href="science_execise_2.html">
+                        <button> Next ></button>
+                    </a>
+                </div>
+                <div class="question-section">
+                    The upper arm is located ___________  and ___________   
+                </div>
+                <button class="submit-button">
+                    Submit Answer
+                </button>
+            </div>
+            <div class="col-md-1"></div>
 
-    <div class="container-fluid top-container">
-      <div class="container main-heading">
-        <h1 data-aos="fade-left">FreeSpace, your free access to educational resources</h1>
-        <!--search box -->
-        <div class="form-group has-search">
-          <span class="fa fa-search form-control-feedback"></span>
-          <input type="text" class="form-control" placeholder="Search" />
         </div>
-      </div>
-    </div>
-
-    <!-- Our story section -->
-    <div class="container-fluid story">
-      <div class="container py-5">
-        <div class="row">
-          <div class="col-md-6">
-            <img data-aos="zoom-in-right" src="./images/homepage/cuate.png" alt="coffee picture" id="coffee" />
-          </div>
-          <div class="col-md-6 d-flex flex-column justify-content-md-center bottom-details">
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Turpis
-              non nulla at a massa pellentesque posuere nullam volutpat.
-              Facilisis gravida eget non cursus vestibulum lacinia fames
-              aliquam. Amet auctor orci suspendisse pellentesque id mattis
-              quis sed dui. In tellus eget enim velit leo pulvinar
-              sollicitudin netus porta.Lorem ipsum dolor sit amet, consectetur
-              adipiscing elit. Turpis non nulla at a massa pellentesque
-              posuere nullam volutpat.
-            </p>
-          </div>
-        </div>
-      </div>
-
-      <div class="container py-5">
-        <div class="row">
-          <div class="col-md-6 d-block d-md-none">
-            <img data-aos="zoom-in-left" src="./images/homepage/rafiki.png" alt="coffee picture" id="coffee" />
-          </div>
-          <div class="col-md-6 d-flex flex-column justify-content-md-center bottom-details">
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Turpis
-              non nulla at a massa pellentesque posuere nullam volutpat.
-              Facilisis gravida eget non cursus vestibulum lacinia fames
-              aliquam. Amet auctor orci suspendisse pellentesque id mattis
-              quis sed dui. In tellus eget enim velit leo pulvinar
-              sollicitudin netus porta.Lorem ipsum dolor sit amet, consectetur
-              adipiscing elit. Turpis non nulla at a massa pellentesque
-              posuere nullam volutpat.
-            </p>
-          </div>
-          <div class="col-md-6 d-none d-md-block">
-            <img data-aos="zoom-in-left" src="./images/homepage/rafiki.png" alt="coffee picture" id="coffee" />
-          </div>
-        </div>
-      </div>
     </div>
 
     <!-- footer -->
