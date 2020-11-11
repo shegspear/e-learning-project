@@ -8,6 +8,7 @@ body {
   position: relative;
   margin: 0;
   font-family: "Red Hat Display", sans-serif;
+  color: #263238;
   font-size: 16px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -24,7 +25,7 @@ body {
       rgba(34, 34, 34, 0.7) 50%,
       rgba(34, 34, 34, 0.7) 100%
     ),
-    url("../images/homepage/Rectangle\ 6.png");
+    url("../images/homepage/Frame.jpg");
   min-height: 100vh;
   background-repeat: no-repeat;
   background-size: cover;
@@ -87,6 +88,7 @@ body {
 
 .navbar .form-control {
   padding: 1rem 0.75rem;
+  width: 243px;
 }
 
 .navbar .has-search .form-control-feedback {
@@ -129,10 +131,24 @@ img {
   padding: 40px 0;
 }
 
+.footer a {
+  color: #fff;
+}
+
+.footer a:hover,
+.footer a.active {
+  text-decoration: none;
+  color: #f8be2a;
+}
+
 .footer i {
   color: #fff;
   font-size: 1.2rem;
   padding: 0 1rem 2rem 2rem;
+}
+
+.footer i:hover {
+  color: #f8be2a;
 }
 
 .footer .form-group,

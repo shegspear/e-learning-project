@@ -3,78 +3,17 @@
     margin: 0;
     box-sizing: border-box;
 }
-
-/* CODE FOR THE NAVIGATION BAR */
-
-.navbar {
-    border: 1px solid black;
-    width: 100%;
-    height: 68px;
-    background-color: #1A3263;
-    box-shadow:  0px 2px 0px rgba(0, 0, 0, 0.25);
-    display: flex;
-}
-
-.logo {
-    text-decoration: none;
-    text-decoration-style: none;
-    color: #FAB95B;
-    margin: 19px 0 0 150px;
-    font-size: 20px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-weight: bold;
-}
-
-input[type=search] {
-    width: 282px;
-    height: 47px;
-    margin: 11px 0 0 150px;
-    border: 10px solid #ffffff;
-}
-
-input[type=search]:focus {
-    outline: 1px solid  blue;
-}
-
-.link-collection {
-    margin: 0 0 0 150px;
-    /* border: 1px solid #fff; */
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    align-items: center;
-    color: #fff;
-}
-
-.link {
-    margin: 0px 60px;
-    list-style-type: none;
-    color: #fff;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-weight: bold;
-    font-style: normal;
-    font-size: 15px;
-    text-decoration: uppercase;
-}
-
-.link-collection li a {
-    text-decoration: none;
-    color: #fff;
-}
-
-.link-collection .link a {
-    text-decoration: none;
-}
+/* CODES FOR ACTIVE PAGE LINK */
 
 #active {
-    color: #FAB95B; 
+    color: #FAB95B;
 }
 
 /* CODES FOR THE SECTION TITLE */
 
 .title-div {
     text-align: center;
-    margin-top: 50px;
+    margin-top: 100px;
 }
 
 .title-div h1 {
@@ -98,7 +37,7 @@ input[type=search]:focus {
 /* CODES FOR THE COURSES SECTION */
 
 .courses-layer {
-    border: 1px solid black;
+    /* border: 1px solid black; */
     display: flex;
     flex-flow: column;
     width: 100%;
@@ -106,20 +45,118 @@ input[type=search]:focus {
 }
 
 .course {
-    border: 1px solid black;
+    border-bottom: 1px solid black;
     display: flex;
     flex: 1;
     flex-flow: row;
+    justify-content: space-between;
     max-width: 1120px;
     width: 90%;
-    margin: 0 auto;
+    margin: 30px auto;
 
 }
 
 .course-description {
-    border: 1px solid red;
+    /* border: 1px solid red; */
+    margin-bottom: 20px;
 }
 
 .course-description h2 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    color: #283238;
+    text-decoration: uppercase;
+    line-height: 32px;
+    margin-bottom: 20px;
+}
 
+.course-description p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    color: #283238;
+    margin-bottom: 20px;
+}
+
+.course-description button {
+    padding: 10px;
+    background-color: #263238;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 13px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 17px;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.course-description button a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.subject-lessons {
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: row;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 19px;
+    color: #283238;
+}
+
+.subject-lessons span {
+    margin: 7px 5px 0 0;
+}
+
+.lesson-btns {
+    /* border: 1px solid red; */
+    display: flex;
+    flex-flow: wrap row;
+    justify-content: space-between;
+    align-items: stretch;
+    width: 400px;
+}
+
+.lesson-btns button{
+    border-radius: 20px;
+    margin: 1px;
+    border: none;
+    outline: none;
+    color: white;
+    background-color: #FAB95B;
+    width: 35px;
+    height: 35px;
+}
+
+
+/* MEDIA QUERY CODES  */
+
+@media only screen and (max-width: 980px) {
+    .course {
+        flex-flow: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .subject-lessons {
+        flex-direction: column;
+        margin-bottom: 10px;
+    }
+
+    .subject-lessons span {
+        margin-bottom: 9px;
+    }
+
+    .lesson-btns {
+        width: 350px;
+    }
 }
