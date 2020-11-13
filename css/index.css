@@ -14,6 +14,12 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+/*EMERGENCY CODE STARTS HERE */
+.emergency-div-1 {
+  text-align: center;
+}
+/*EMERGENCY CODE END HERE*/
+
 .container-fluid {
   padding: 0;
 }
