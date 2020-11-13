@@ -271,11 +271,35 @@ img {
   .top-search {
     margin: 0;
   }
+
+  .footer{
+    text-align: center;
+  }
+
+  .middle-div {
+    border-left: 1px solid rgba(245, 245, 245, 0.1);
+    border-right: 1px solid rgba(245, 245, 245, 0.1);
+  }
+
+  .bottom-details{
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    align-self: center;
+  }
 }
 
 @media only screen and (max-width: 640px) {
   .footer {
     padding-top: 30px;
+   text-align: center;
+  }
+  .bottom-details{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-self: center;
+    align-self: center;
   }
 }
 
