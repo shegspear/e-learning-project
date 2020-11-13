@@ -1,0 +1,81 @@
+h1 {
+    font-family: Sarabun;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+   margin-top:100px;
+    letter-spacing: 0em;
+    text-align: left;
+    
+}
+
+.about-banner {
+height: 50vh;
+width: 100%;
+
+
+
+}
+
+.e-learn h2 {
+ font-family: Red Hat Display;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+
+.e-learn p {
+font-family: Red Hat Display;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: 30px;
+letter-spacing: 0.04em;
+text-align: justify;
+
+}
+
+.jumbo-section h2{
+    font-family: Red Hat Display;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: justify;
+    
+}
+
+.jumbo-section p {
+font-family: Red Hat Display;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: 40px;
+letter-spacing: 0.04em;
+text-align: justify;
+
+}
+
+
+.values h2 {
+font-family: Red Hat Display;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: 32px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+
+
+
+/* media queries */
+@media (max-width: 376px) {
+ 
+}
