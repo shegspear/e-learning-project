@@ -1,0 +1,202 @@
+.execise-section{
+    height: 100%;
+    margin-top: 15px;
+}
+
+.execise-section .left-side{
+    background: rgba(196, 196, 196, 0.2);
+    height: 700px;
+    left: 150px;
+    top: 68px;
+    padding: 20px;
+    margin-bottom: -40px;
+}
+
+.execise-section .left-side button{
+    background: #FAB95B;
+    width: 87px;
+    height: 21px;
+    left: 5px;
+    top: 5px;
+    font-family: Red Hat Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 21px;
+    color: #FFFFFF;
+    
+}
+
+.execise-section .left-side .execise-list{
+    list-style: none;
+    margin-top: 20px;
+    font-family: Red Hat Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 21px;
+
+    color: #263238;
+}
+
+.execise-section .left-side button{
+    width: 97px;
+    height: 31px;
+    margin-top: 20px;
+    background: #FAB95B;
+}
+
+.execise-section  .left-side .subject-title{
+    width: 71px;
+    height: 21px;
+    left: 169px;
+    top: 118px;
+
+    font-family: Red Hat Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 21px;
+    text-transform: uppercase;
+
+    color: #263238;
+}
+
+.right-side{
+    padding-top: 30px;
+}
+
+.right-side .subject-title{
+    width: 244px;
+    height: 32px;
+    left: 577px;
+    top: 112px;
+
+    font-family: Red Hat Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 32px;
+    /* identical to box height */
+
+    text-transform: uppercase;
+
+    color: #263238;
+}
+
+.right-side .line{
+    width: 48px;
+    height: 0px;
+    left: 577px;
+    top: 157px;
+    background-color:#FAB95B;
+    border: 3px solid #FAB95B;
+}
+.right-side .control-buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.right-side .control-buttons button{
+    width: 92px;
+    height: 40px;
+    left: 577px;
+    top: 192px;
+
+    background: #FAB95B;
+    font-family: Red Hat Display;
+font-style: normal;
+font-weight: bold;
+font-size: 13px;
+line-height: 17px;
+
+color: #FFFFFF;
+
+}
+
+.right-side .start-section{
+    width: 632px;
+    height: 175px;
+    left: 578px;
+    top: 548px;
+    padding: 20px;
+    background: #263238;
+    opacity: 0.6;
+    margin-top: 50px;
+}
+
+.right-side .start-section h2{
+    width: 238px;
+    height: 24px;
+    left: 601px;
+    top: 559px;
+
+    font-family: Red Hat Display;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    /* identical to box height */
+
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+
+}
+
+.right-side .start-section p{
+    width: 76px;
+    height: 21px;
+    left: 601px;
+    top: 604px;
+
+    font-family: Red Hat Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 21px;
+
+    color: #FFFFFF;
+}
+
+.right-side .start-section p{
+    width: 180px;
+    height: 21px;
+    left: 636px;
+    top: 661px;
+
+    font-family: Red Hat Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 21px;
+
+    color: #FFFFFF;
+
+}
+
+.right-side .start-section button{
+    width: 249px;
+    height: 51px;
+    left: 601px;
+    top: 646px;
+    padding: 10px;
+    background: #FAB95B;
+    margin-top: 10px;
+}
+
+
+/* media queries */
+
+@media only screen and (max-width: 640px) {
+    .right-side{
+        margin-top: 40px;
+    }
+    .left-side{
+        width: 80vw;
+    }
+    .right-side .start-section {
+        width: 90vw;
+    }
+  }

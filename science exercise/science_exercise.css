@@ -1,0 +1,89 @@
+.right-side .question-section{
+    width: 630px;
+    height: 178px;
+    left: 580px;
+    top: 321px;
+
+    background: rgba(196, 196, 196, 0.4);
+    padding: 20px;
+}
+
+.right-side .submit-button{
+    width: 180px;
+    height: 40px;
+    left: 580px;
+    top: 547px;
+    margin-top: 20px;
+    background: #FAB95B;
+    font-family: Red Hat Display;
+font-style: normal;
+font-weight: bold;
+font-size: 13px;
+line-height: 17px;
+
+color: #FFFFFF;
+
+
+}
+
+.right-side .subject-title-header{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+}
+
+.right-side .subject-title-header .score-section{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+}
+
+.right-side .subject-title-header .score-section p{
+    width: 50px;
+    height: 21px;
+    left: 1076px;
+    top: 118px;
+    margin-top: 10px;
+    font-family: Red Hat Display;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 21px;
+    margin-right: 10px;
+    color: #263238;
+
+}
+
+.right-side .subject-title-header .score-section button{
+    width: 65px;
+    height: 40px;
+    left: 1145px;
+    top: 107px;
+    
+    background: #FAB95B; 
+    font-family: Red Hat Display;
+font-style: normal;
+font-weight: 900;
+font-size: 16px;
+line-height: 21px;
+
+color: #FFFFFF; 
+}
+
+
+.left-side .exe{
+    margin-top: -30px;
+}
+
+
+@media only screen and (max-width: 640px) {
+    .right-side{
+        margin-top: 40px;
+    }
+    .left-side{
+        width: 80vw;
+    }
+    .right-side .question-section {
+        width: 90vw;
+    }
+  }
